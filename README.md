@@ -25,17 +25,13 @@ Note:
 
 ## Group members
 
-[delete this line and enter your names here]
-
-## Group name (optional):
-
-[delete this line and enter your group name here; if you don't have one, delete the whole section]
+Erick Morales Oyola, Macey Mann, Madison Muhle
 
 ## Topic information and question
 
 **Topic:**  
 
-[delete this line and enter your topic here]
+Birds
 
 **Question(s):**  
 
