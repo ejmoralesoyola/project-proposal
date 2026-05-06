@@ -31,7 +31,7 @@ Erick Morales Oyola, Macey Hartmann, Madison Muhle
 
 **Topic:**  
 
-Birds
+Vegetation: What species characterize major habitats?
 
 **Question(s):**  
 
