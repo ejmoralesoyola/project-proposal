@@ -98,7 +98,7 @@ Overall, data cleaning/wrangling will focus on summarizing vegetation compositio
 
 **Stats and visualization director**
 
-[delete this line and enter your own text here]
+Macey Hartmann
 
 **GitHub/code director**
 
