@@ -35,9 +35,9 @@ Vegetation: What species characterize salt marsh habitats at NCOS?
 
 **Question(s):**  
 
-- What plant species characterize salt marsh habitats at NCOS?
-- Do native and non-native species differ in how they contribute to habitat identity? 
-
+- Which dominant plant species characterize salt marsh habitat at NCOS?
+- How has the mean percent cover of the dominant salt marsh species changed across survey years? 
+- How has the relative contribution of native and non-native vegetation changed across survey years? 
 **Response variable(s)**
 
 - Plant species within salt marsh habitat
@@ -48,51 +48,38 @@ Vegetation: What species characterize salt marsh habitats at NCOS?
 
 **Datasets used:**
 
-- veg.csv: vegetation survey data with species identities, percent cover, cover category, habitat type, trasnsect, site, and year. This will be our main dataset for identifying which plant species characterize each major habitat type at NCOS.
+- veg.csv: vegetation survey data with species identities, percent cover, cover category, habitat type, transect, site, and year. This will be our main dataset for identifying which plant species characterize each major habitat type at NCOS.
 - vp_veg_metadata.csv: metadata for vegetation transects, including year, transect name, and number of quadrats. This might help us account for the sampling effort across the different transects.
 
 ## Figures
 
 **Potential figure 1:**
 
-[delete this line and enter your figure here]
-A stacked bar plot showing mean percent cover of the most common plant species within each major habitat type. Habitat would be on the X-axis, mean percent cover would be on the Y-axis, and fill color would represent plant species. 
+A stacked bar plot showing mean percent cover of the 3–5 dominant salt marsh plant species across survey years. Year would be on the x-axis, mean percent cover would be on the y-axis, and fill color would represent plant species. 
 
-This figure would be relevant since it would show which species contribute the most vegetation cover in each habitat, and help us identify the most characteristic plant species for each major habitat type. 
+This figure is relevant because it directly shows which species contribute the most cover in salt marsh habitat through time. It will help us identify whether salt marsh vegetation is consistently characterized by the same dominant species or whether dominant species shift across years.
 
 **Potential figure 2:**
 
-[delete this line and enter your figure here; if you don't have one, delete the entire section]
-A faceted bar plot showing the top species by mean percent cover within each habitat type. Each panel would represent one habitat instead, species would be on the Y-axis, and mean percent cover would be on the X-axis. 
+A stacked bar plot showing the relative contribution of native and non-native vegetation cover in salt marsh habitat across survey years. Year would be on the x-axis, percent cover would be on the y-axis, and fill color would represent native or non-native cover category.
 
-This figure would be relevant because it would make species-habitat patterns much easier to read than one large, crowded bar plot. Separating habitats into panels would allow us to more clearly compare which species dominate each habitat without making the figure too complicated. 
+This figure is relevant because it shows whether salt marsh habitat is mostly characterized by native vegetation, non-native vegetation, or a changing mixture of both through time. This helps connect species composition to broader questions about restoration, habitat condition, and vegetation community change at NCOS.
 
-**Potential figure 3:**
-
-[delete this line and enter your figure here; if you don't have one, delete the entire section]
-A boxplot/jitter plot comparing percent cover of native and non-native vegetation across major habitat types. 
-
-This figure would be relevant because it would show whether different habitats are characterized by native vegetation, non-native vvegetation, or a mix of both. This would help us relate species composition to broader ecological patterns and restoration efforts at NCOS.
-
-**Potential figure 4**
-
-[delete this line and enter your figure here; if you don't have one, delete the entire section]
-A bar plot showing species richness, or the number of unique plant species, within each major habitat type. Habitat type would be on the X-axis, and species richness would be on the Y-axis. 
-
-This figure would be relevant because it would help compare plant diversity across habitats. Even if one habitat is dominated by a few species, another habitat could support more unique species overall, so richness would give us another way to describe community composition of habitats at NCOS. 
 
 ## Data cleaning/wrangling/summarizing plan
 
-We will start by reading in 'veg.csv' and 'vp_veg_metadata.csv' and then cleaning column names so the datasets are easier to work with in R Studio. Our main analysis will use 'veg.csv,' focusing on habitat type, plant species, percent cover, cover category, transect, site, and year. We will filter out non-species cover categories if we decide to focus on only plant species rather than including bare ground, thatch, and other non-plant cover types. We will group the vegetation data by habitat and species to calculate mean percent cover, total percent cover, and frequency for each species within each habitat. 
+Because our project focuses on salt marsh vegetation, we will filter `veg.csv` to include only records from salt marsh habitat. We will also focus on late summer or early fall surveys, when vegetation cover is expected to be highest and most comparable across years.
 
-To keep our figures simple and readable, we will limit some visualizations to the most common or highest-cover species within each habitat. For native and non-native comparison, we will group the data by habitat and cover category, then summarize the percent cover for native and non-native vegetation. If the sampling effort is significantly different across transects or years, we might also use 'vp_veg_metadata.csv' to check the number of quadrats. 
+For the dominant species figure, we will filter to plant cover categories, including native and non-native cover, and remove non-plant categories such as bare ground, thatch, and other cover. We will group the data by year and species to calculate mean percent cover for each species in salt marsh habitat. To keep the figure readable, we will identify the 3–5 dominant species based on total or mean percent cover across all years, then visualize those species across survey years.
 
-Overall, data cleaning/wrangling will focus on summarizing vegetation composition in a way that makes habitat-level patterns clear and underestandable. 
+For the native/non-native figure, we will group the data by year and cover category, then summarize percent cover for native and non-native vegetation. We will use a stacked proportional bar plot so each year adds up to 1, making it easier to compare the relative contribution of native and non-native vegetation through time.
+
+
 ## Project roles
 
 **Natural history/framing director:**
 
-[delete this line and enter your own text here]
+Erick Morales Oyola and Macey Hartmann
 
 **Stats and visualization director**
 
@@ -107,7 +94,7 @@ Erick Morales Oyola
 
 **Group members completing elective:**
 
-[delete this line and enter your own text here]
+Erick Morales Oyola and Macey Hartmann
 
 **Elective idea:**
 
