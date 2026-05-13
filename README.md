@@ -31,19 +31,17 @@ Erick Morales Oyola and Macey Hartmann
 
 **Topic:**  
 
-Vegetation: What species characterize major habitats? 
+Vegetation: What species characterize salt marsh habitats at NCOS? 
 
 **Question(s):**  
 
-- What plant species characterize the major habitat types at NCOS?
-- Which species are most strongly associated with each habitat type?
+- What plant species characterize salt marsh habitats at NCOS?
 - Do native and non-native species differ in how they contribute to habitat identity? 
 
 **Response variable(s)**
 
-- Plant species
+- Plant species within salt marsh habitat
 - Percent cover by species
-- Species richness, or number of unique species
 - Native/non-native cover category
 
 ## Datasets
