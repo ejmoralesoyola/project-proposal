@@ -25,7 +25,7 @@ Note:
 
 ## Group members
 
-Erick Morales Oyola, Macey Hartmann, Madison Muhle
+Erick Morales Oyola and Macey Hartmann
 
 ## Topic information and question
 
