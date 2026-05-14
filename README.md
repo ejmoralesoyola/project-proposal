@@ -1,3 +1,4 @@
+
 # Group project proposal
 
 **Spring 2026**
@@ -98,19 +99,19 @@ Erick Morales Oyola and Macey Hartmann
 
 **Elective idea:**
 
-[delete this line and enter your own text here]
+For our advanced elective, we will create an educational magazine about the salt marsh plants of the North Campus Open Space (NCOS). Inspired by National Geographic, the magazine will introduce readers to the dominant plant species that characterize salt marsh habitat at NCOS. The magazine will include species spotlight pages profiling the dominant salt marsh plants with illustrated profiles, fun facts, and native/non-native status; a "Meet the Marsh" illustrated map of NCOS showing habitat zones; a data feature communicating our findings;a "Native vs. Non-Native vs. Invasive" explanation page; a salt marsh vocabulary word search; a "What Plant Are You?" personality flowchart; and a how to get involved page describing how to visit and learn more about NCOS  
 
 **Elective timeline (what you will have completed each week):**
 
-Week 7: enter your own text here
+Week 7: Finalize magazine structure, section outline, and visual style; identify the 3–5 dominant salt marsh species to feature based on preliminary data exploration
 
-Week 8 (timeline check in): enter your own text here
+Week 8 (timeline check in): Draft complete for species spotlight pages and "Native vs. Invader" explainer; rough sketch or mockup of the "Meet the Marsh" map and overall layout
 
-Week 9: enter your own text here
+Week 9: Complete all remaining sections (data feature, word search, flowchart, ways to help); begin design and layout in Canva or equivalent
 
-Week 10: enter your own text here
+Week 10: Finalize and polish full magazine; present elective
 
-Finals week: enter your own text here
+Finals week: Deliver completed magazine; give to Mrs. McCarter's fourth grade classroom
 
 
 
