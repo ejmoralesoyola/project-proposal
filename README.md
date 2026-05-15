@@ -67,6 +67,18 @@ A proportional stacked bar plot showing the relative contribution of native and 
 
 This figure is relevant because it addresses how the relative contribution of native and non-native vegetation has changed across survey years at NCOS. By expressing cover as proportions rather than raw values, we can make fair comparisons across years even if total sampling effort or total vegetation cover varies. A shift toward greater native dominance over time may suggest restoration progress.
 
+**Potential figure 3:**
+
+A horizontal bar chart showing mean percent cover for each plant species recorded in salt marsh habitat at NCOS, averaged across all survey years and ranked from highest to lowest. Species will be on the y-axis, mean percent cover on the x-axis, and bars will be colored by cover category (native or non-native) to visually reinforce the native/non-native distinction alongside species identity. Only plant cover categories will be included; bare ground, thatch, and other non-plant categories will be excluded prior to summarizing.
+
+This figure is relevant because it provides a clear, static summary of which species contribute the most cover to salt marsh habitat at NCOS overall, directly answering our first research question.
+
+**Potential figure 4:**
+
+A line chart showing total mean vegetation cover (native + non-native combined) in salt marsh habitat at NCOS across survey years. Year will be on the x-axis, total mean percent cover on the y-axis, and points will be connected by a line to emphasize the temporal trend.
+
+This figure is relevant because it provides context for interpreting figures 1 and 2. Proportional shifts in native vs. non-native cover (figure 2) are better understood when paired with information about whether total vegetation cover is also changing. This figure also helps identify years with unusually high or low total cover that might reflect disturbance, drought, or survey timing differences.
+
 ## Data cleaning/wrangling/summarizing plan
 
 Because our project focuses on salt marsh vegetation, we will filter veg.csv to include only records from salt marsh habitat. We will also focus on late summer or early fall surveys by filtering to August and September using the date column, when vegetation cover is expected to be highest and most comparable across years. Before summarizing, we will use complete() to fill implicit NAs with 0, so that species absent from a quadrat in a given year are treated as 0 percent cover rather than missing. We will then join with vp_veg_metadata.csv by year_pool to obtain the number of quadrats (num_quad) surveyed per transect per year, which we will use to calculate mean percent cover as total cover divided by number of quadrats.
